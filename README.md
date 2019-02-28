@@ -22,7 +22,7 @@ Install
 
 - **Copy custom_components folder into your config directory**
 ```
-For my HASSIO + SSH setup, my folder path will be just: /config/custom_components
+For my HASSIO + SSH setup, just copy custom_components into /config.
 ```
 
 - **Add your credentials to configuration.yaml**
