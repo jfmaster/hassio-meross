@@ -11,7 +11,7 @@ from homeassistant.helpers.dispatcher import (
 from homeassistant.helpers.entity import Entity
 from homeassistant.helpers.event import track_time_interval
 
-_LOGGER = logging.getLogger(__name__)
+_LOGGER = logging.getLogger(__name__).setLevel(40)
 
 REQUIREMENTS = ['meross_iot==0.1.2.0']
 

@@ -1,5 +1,5 @@
 from homeassistant.components.switch import ENTITY_ID_FORMAT, SwitchDevice
-from ..meross import DATA_DEVICES, MerossDevice
+from . import DATA_DEVICES, MerossDevice
 
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
