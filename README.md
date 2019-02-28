@@ -4,7 +4,7 @@ hassio-meross
 
 An update to [Spencer Oberstadt's custom component](https://github.com/soberstadt/homeassistant-config/blob/master/custom_components/meross.py) to work with my HA 0.88.1 install (I use HASSIO, but plain old Home Assistant should be fine).
 
-It is built using the awesome [MerossIot Python library](https://github.com/albertogeniola/MerossIot), which is already really well-developed.
+It is built using the [MerossIot Python library](https://github.com/albertogeniola/MerossIot), which uses the Meross API and is extremely fast. Much, much faster than using IFTT and probably still faster than going through Google Assistant middleware.
 
 Devices
 ============
