@@ -30,6 +30,11 @@ For my HASSIO + SSH setup, just copy custom_components into /config.
 meross:
   username: me@me.com
   password: !secret meross
+
+# I added these lines to prevent some frequent log status messages I noticed
+logger:
+  logs:
+    meross_powerplug: warning
 ```
 - **Check for errors and restart Home Assistant. Look at your states page or unused lovelace components page for the added switches.**
 

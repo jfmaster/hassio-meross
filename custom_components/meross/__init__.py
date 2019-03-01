@@ -11,7 +11,9 @@ from homeassistant.helpers.dispatcher import (
 from homeassistant.helpers.entity import Entity
 from homeassistant.helpers.event import track_time_interval
 
-_LOGGER = logging.getLogger(__name__).setLevel(40)
+# Setting the logLevel to 40 will HIDE any message logged with severity less than 40 (40=WARNING, 30=INFO)
+_LOGGER = logging.getLogger(__name__)
+_LOGGER.setLevel(40)
 
 REQUIREMENTS = ['meross_iot==0.1.2.0']
 
